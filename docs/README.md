@@ -29,6 +29,8 @@ home: true
 
 [Testing: 怎么去做单元测试](/vue/Testing/)
 
+[vue-i18n: 多语言处理](/vue/i18n/)
+
 
 # React
 
@@ -37,3 +39,7 @@ home: true
 
 
 # nodejs
+
+# Tools 
+
+[前端工具之PM2](/tools/pm2/)
