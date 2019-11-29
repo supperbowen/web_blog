@@ -25,11 +25,15 @@ home: true
 
 [Components: 该怎么样去写好一个组件](/vue/components/)
 
+[vue-i18n: 多语言处理](/vue/components/NO_MIXIN.md)
+
+
 [Testable: 先写出可测试的代码](/vue/Testable/)
 
 [Testing: 怎么去做单元测试](/vue/Testing/)
 
 [vue-i18n: 多语言处理](/vue/i18n/)
+
 
 
 # React
