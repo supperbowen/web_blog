@@ -4,7 +4,7 @@ sidebar: auto
 
 # API 管理
 
-![API](../../images/vue-api-poster.jpg)
+![API](../../images/vue-api-2.png)
 
 API 的功能一般是用于管理服务端的接口服务，从功能上面来看 API 要完成的事情大致是 1. 请求参数的加工 2. 发起接口的请求 3. 响应数据的处理 4. 请求异常处理
 
@@ -58,7 +58,7 @@ export async function list(filter, pageNumer, pageSize) {
 发起请求要做的事
 
 1. 与服务端的约定处理（如添加 Authorization 到 header)
-2. 超时处理，特定的长请求处理（如一般接口是5S超时，文件上传是30S超时）
+2. 超时处理，特定的长请求处理（如一般接口是 5S 超时，文件上传是 30S 超时）
 3. 接口防抖
 
 ## 响应数据的处理
@@ -68,3 +68,9 @@ export async function list(filter, pageNumer, pageSize) {
 而我们应用层一般需要的是业务数据，部分请求状态数据（如列表分页信息），
 
 ## 请求异常处理
+
+HTTP 调用的时候经常会抛出可预知或不可预知的异常，越是在靠近异常发生的位置处理异常，处理成本就越低。
+
+## 小结
+
+API 层可以认为是模型层，除了提供了模型外，它还为我们处理了数据请求过程中的大部分细节，让业务程更关注于业务的本身。
